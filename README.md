@@ -30,10 +30,10 @@
     <img src="./imagenes/privado.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
 4. **Scripts**
-    - Crearemos una carpeta scripts que a su vez tendrá dentro un fichero.sh (en mi caso entrypoint.sh) que se encargará de ejecutar los comandos para habilitar los sitios, activar el módulo SSL y reiniciar el servicio de Apache. 
+    - Crearemos una carpeta scripts que a su vez tendrá dentro un fichero.sh (en mi caso entrypoint.sh) que se encargará de ejecutar los comandos para habilitar los sitios, activar el módulo SSL y reiniciar el servicio de Nginx. 
     <p>
     <img src="./imagenes/scripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px"></br>
-    <img src="./imagenes/codigoScripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/entrypoint.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
 5. **Certificados y contraseñas**
     - Crearemos las carpetas de certificados(certs) y contraseñas(htppasswd) para posteriormente añadir los archivos de autentificacion, la clave pública y la privada
